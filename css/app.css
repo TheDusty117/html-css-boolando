@@ -47,12 +47,24 @@ e dargli lo stile CON CALMA, lo puoi fare dopo */
 
 .brand {
   font-weight: 400;
+  font-size: 0.8em;
 }
 
 .product-desc {
   font-weight: 700;
+  font-size: 0.8em;
 }
 
+.realprice {
+  color: red;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.discountedprice {
+  text-decoration: line-through;
+  font-size: 0.8em;
+}
 
 
 /***************** MAIN ********************/
