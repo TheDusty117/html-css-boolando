@@ -77,9 +77,21 @@ e dargli lo stile CON CALMA, lo puoi fare dopo */
   justify-content: space-between;
 }
 
+section{
+  padding: 50px;
+}
+
 /************* POSITION ELEMENTS **************/
 
-/* BOXES STYLE and POSITION */
+/* Red, Green ,Heart BOXES STYLE and POSITION */
+
+/* Padre come elemento di riferimento */
+
+.product{
+  position: relative;
+}
+
+/* box rosso figlio del padre */
 
 .red-box{
   background-color: red;
@@ -93,11 +105,36 @@ e dargli lo stile CON CALMA, lo puoi fare dopo */
   bottom: 90px;
 }
 
-.product{
-  position: relative;
+/* box verde figlio del padre */
+
+
+.green-box{
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 4px;
+
+  position: absolute;
+  left: 45px;
+  bottom: 90px;
 }
 
-.green-box
+/* box cuore figlio del padre */
+
+.heart{
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+  padding: 5px 15px;
+
+  position: absolute;
+  right: 0px;
+  top: 10px;
+
+}
+
 
 /* BOXES POSITION */
 
