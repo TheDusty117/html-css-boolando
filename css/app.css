@@ -43,6 +43,18 @@ header{
 /* da fare dopo: azzerare gli stili dei link
 e dargli lo stile CON CALMA, lo puoi fare dopo */
 
+/*************** FONT STYLE RULES **************/
+
+.brand {
+  font-weight: 400;
+}
+
+.product-desc {
+  font-weight: 700;
+}
+
+
+
 /***************** MAIN ********************/
 
 .model-pic {
