@@ -14,6 +14,12 @@ img {
 }
 
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
 /******************* HEADER **********************/
 
 header{
@@ -147,11 +153,49 @@ section{
 }
 
 
-/* BOXES POSITION */
-
-
 /* 
 .red-position{
   position: absolute;
 } */
 
+/************ FOOTER ************/
+
+footer{
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.row-footer{
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+.info-menu{
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.info-links{
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.social-menu{
+  display: flex;
+  gap: 10px;
+  font-weight: 700px;
+  font-size: 1em;
+}
+
+.social-links{
+  font-weight: 400;
+  font-size: 0.7em;
+}
