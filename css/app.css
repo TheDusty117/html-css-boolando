@@ -120,6 +120,18 @@ section{
   bottom: 90px;
 }
 
+.green-box2{
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 4px;
+
+  position: absolute;
+  left: 0px;
+  bottom: 90px;
+}
+
 /* box cuore figlio del padre */
 
 .heart{
@@ -132,7 +144,6 @@ section{
   position: absolute;
   right: 0px;
   top: 10px;
-
 }
 
 
