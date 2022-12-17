@@ -76,3 +76,34 @@ e dargli lo stile CON CALMA, lo puoi fare dopo */
 .row-product {
   justify-content: space-between;
 }
+
+/************* POSITION ELEMENTS **************/
+
+/* BOXES STYLE and POSITION */
+
+.red-box{
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 4px;
+
+  position: absolute;
+  left: 0px;
+  bottom: 90px;
+}
+
+.product{
+  position: relative;
+}
+
+.green-box
+
+/* BOXES POSITION */
+
+
+/* 
+.red-position{
+  position: absolute;
+} */
+
