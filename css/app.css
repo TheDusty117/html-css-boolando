@@ -77,6 +77,20 @@ e dargli lo stile CON CALMA, lo puoi fare dopo */
 
 .model-pic {
   max-width: 339.7px;
+  position: relative;
+  display: inline-block;
+}
+
+.product .model-pic2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 98;
+}
+
+.product:hover .model-pic2 {
+  display: inline;
 }
 
 .row-product {
@@ -109,6 +123,7 @@ section{
   position: absolute;
   left: 0px;
   bottom: 90px;
+  z-index: 99;
 }
 
 /* box verde figlio del padre */
@@ -124,6 +139,7 @@ section{
   position: absolute;
   left: 45px;
   bottom: 90px;
+  z-index: 99;
 }
 
 .green-box2{
@@ -136,6 +152,7 @@ section{
   position: absolute;
   left: 0px;
   bottom: 90px;
+  z-index: 99;
 }
 
 /* box cuore figlio del padre */
@@ -150,6 +167,7 @@ section{
   position: absolute;
   right: 0px;
   top: 10px;
+  z-index: 99;
 }
 
 
@@ -199,3 +217,8 @@ menu {
   font-weight: 400;
   font-size: 0.7em;
 }
+
+
+/* BONUS HOVER IMAGE SWAP */
+
+
