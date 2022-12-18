@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+/******************* HEADER **********************/
+
+header{
+  background-color: #FF6900;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.row-header {
+  padding: 20px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+/* da fare dopo: azzerare gli stili dei link
+e dargli lo stile CON CALMA, lo puoi fare dopo */
+
+/*************** FONT STYLE RULES **************/
+
+.brand {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.product-desc {
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.realprice {
+  color: red;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.discountedprice {
+  text-decoration: line-through;
+  font-size: 0.8em;
+}
+
+
+/***************** MAIN ********************/
+
+.model-pic {
+  max-width: 339.7px;
+  position: relative;
+  display: inline-block;
+}
+
+.product .model-pic2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 98;
+}
+
+.product:hover .model-pic2 {
+  display: inline;
+}
+
+.row-product {
+  justify-content: space-between;
+}
+
+section{
+  padding: 50px;
+}
+
+/************* POSITION ELEMENTS **************/
+
+/* Red, Green ,Heart BOXES STYLE and POSITION */
+
+/* Padre come elemento di riferimento */
+
+.product{
+  position: relative;
+}
+
+/* box rosso figlio del padre */
+
+.red-box{
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 4px;
+
+  position: absolute;
+  left: 0px;
+  bottom: 90px;
+  z-index: 99;
+}
+
+/* box verde figlio del padre */
+
+
+.green-box{
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 4px;
+
+  position: absolute;
+  left: 45px;
+  bottom: 90px;
+  z-index: 99;
+}
+
+.green-box2{
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 4px;
+
+  position: absolute;
+  left: 0px;
+  bottom: 90px;
+  z-index: 99;
+}
+
+/* box cuore figlio del padre */
+
+.heart{
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+  padding: 5px 15px;
+
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  z-index: 99;
+}
+
+
+/* 
+.red-position{
+  position: absolute;
+} */
+
+/************ FOOTER ************/
+
+footer{
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.row-footer{
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+.info-menu{
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.info-links{
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.social-menu{
+  display: flex;
+  gap: 10px;
+  font-weight: 700px;
+  font-size: 1em;
+}
+
+.social-links{
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+
+/* BONUS HOVER IMAGE SWAP */
+
+
