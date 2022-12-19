@@ -33,6 +33,12 @@ main{
   padding-top: 70px;
 }
 
+
+/* ERRORE DA CORREGGERE, avrei dovuto impostare i formati 
+delle colonne con una grandezza in 4/12 in modo tale 
+da far mantenere il formato e padding tra gli elementi
+quando si restringe o si allarga la pagina web */
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
