@@ -24,6 +24,13 @@ a{
 
 header{
   background-color: #FF6900;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+main{
+  padding-top: 70px;
 }
 
 .container {
@@ -46,6 +53,10 @@ header{
   width: 150px;
 }
 
+
+.col{
+  width: ;
+}
 /* da fare dopo: azzerare gli stili dei link
 e dargli lo stile CON CALMA, lo puoi fare dopo */
 
